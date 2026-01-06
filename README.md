@@ -1,20 +1,70 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+### Major Construction Company Website
 
-# Run and deploy your AI Studio app
+A modern and powerful construction company website built with React, focusing on large-scale projects, strong visual storytelling, and a professional industrial identity.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/temp/3
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+The website showcases mega projects, execution timelines, before/after transformations, and company capabilities using a clean and scalable component-based architecture.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+### Features
+
+- Modern and professional UI
+- Heavy visual storytelling
+- Project timelines
+- Before / After project sections
+- Scroll-based animations
+- Fully responsive design
+- Clean and scalable structure
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+
+---
+
+##  Project Structure
+
+src/
+├─ pages/
+├─ components/
+├─ assets/
+└─ styles/
+
+yaml
+Copy code
+
+---
+
+##  Run Locally
+
+### Prerequisites
+- Node.js (v18 or later recommended)
+
+### Installation
+
+```bash
+npm install
+Start Development Server
+bash
+Copy code
+npm run dev
+📦 Build for Production
+bash
+Copy code
+npm run build
+🎯 Use Case
+Construction companies
+
+Infrastructure contractors
+
+Real estate developers
+
+Engineering firms
+
+👤 Author
+Developed by Yousef Sulieman
+Front-End & Full-Stack Developer
