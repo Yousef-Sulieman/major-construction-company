@@ -53,12 +53,12 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-6">
           <SectionHeader title="القيادة العليا" subtitle="نخبة من الكفاءات الهندسية والإدارية التي تقود المجموعة نحو آفاق جديدة." />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20">
-            {[1, 2, 3].map(i => (
+            {[1, 2, 3,].map(i => (
               <div key={i} className="group overflow-hidden">
                 <div className="h-[450px] overflow-hidden bg-gray-200 mb-8">
-                  <img src={`https://picsum.photos/seed/${i + 10}/600/800`} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="Executive" />
+                  <img src="https://plus.unsplash.com/premium_photo-1683133992051-daa8ff45115e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="Executive" />
                 </div>
-                <h4 className="text-2xl font-black text-slate-900 mb-2">م. إبراهيم القحطاني</h4>
+                <h4 className="text-2xl font-black text-slate-900 mb-2">م. إبراهيم </h4>
                 <p className="text-amber-600 font-bold uppercase tracking-widest text-sm">الرئيس التنفيذي</p>
               </div>
             ))}
